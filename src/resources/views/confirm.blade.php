@@ -26,12 +26,6 @@
         </div>
         <form class="form" action="/contacts" method="post">
         @csrf
-          <div class="confirm-table">
-            <table class="confirm-table__inner">
-              <tr class="confirm-table__row">
-                <th class="confirm-table__header">ID</th>
-                <td class="confirm-table__text">
-                  <input type="id" name="id" value="{{ $contact['id'] }}" readonly />
               <tr class="confirm-table__row">
                 <th class="confirm-table__header">お名前</th>
                 <td class="confirm-table__text">

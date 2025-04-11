@@ -28,20 +28,6 @@
         @csrf  
         <div class="form__group">
           <div class="form__group-tittle">
-            <span class="form__label--item">ID</span>
-            <span class="form__label--required">必須</span>  
-          </div>
-          <div class="form__group-content">
-            <div class="form__input--text">
-             <input type="ID" name="id" placeholder="12345678" /> 
-            </div>
-            <div class="form__error">
-              <!--バリデーション機能を実装したら記述します。-->
-            </div>
-          </div>
-        </div>
-        <div class="form__group">
-          <div class="form__group-tittle">
             <span class="form__label--item">お名前</span>
             <span class="form__label--required">必須</span>  
           </div>

@@ -13,6 +13,8 @@ use App\Http\Controllers\ContactController;
 |
 */
 
-Route::get('/',[ContactCOntroller::class, 'index']);
+Route::get('/',[ContactController::class, 'list']);
+Route::get('/contacts/form',[ContactController::class, 'index']);
+
 Route::POST('/contacts/confirm', [ContactController::class, 'confirm']);
 Route::post('/contacts',[ContactController::class,'store']);
