@@ -33,14 +33,13 @@
           </div>
           <div class="form__group-content">
             <div class="form__input--text">
-             <input type="ID" name="ID" placeholder="12345678" /> 
+             <input type="ID" name="id" placeholder="12345678" /> 
             </div>
             <div class="form__error">
               <!--バリデーション機能を実装したら記述します。-->
             </div>
           </div>
         </div>
-      </form>
         <div class="form__group">
           <div class="form__group-tittle">
             <span class="form__label--item">お名前</span>
@@ -99,6 +98,7 @@
         </div>    
       </div>
     </div>
+      </form>
   </main>
 </body>
 
