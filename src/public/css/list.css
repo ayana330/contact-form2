@@ -1,0 +1,28 @@
+.contact-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 30px 0;
+    font-size: 16px;
+    min-width: 800px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.contact-table thead {
+    background-color: #f5f5f5;
+}
+
+.contact-table th,
+.contact-table td {
+    padding: 12px 20px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.contact-table tr:hover {
+    background-color: #f9f9f9;
+}
+
+.contact-table th {
+    font-weight: bold;
+    color: #333;
+}

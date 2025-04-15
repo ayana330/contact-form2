@@ -22,7 +22,7 @@ class ContactController extends Controller
     {
         $contact = $request->only(['name','email','tel','content']);
       
-        return view('confirm',compact('contact'));
+        return view('confirm', ['contact' => $contact]);
     }
 
     public function store(ContactRequest $request)
