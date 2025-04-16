@@ -20,8 +20,9 @@
   </header>
   
   <main>
-    <h1>お問い合わせ一覧</h1>
+    <h1 class="page-tittle">お問い合わせ一覧</h1>
     <a href="/contacts/form">新規登録</a>
+
     <table class="contact-table">
     <thead>
         <tr>
@@ -37,15 +38,8 @@
             <td>1</td>
             <td>太郎</td>
             <td>a@com</td>
-            <td>070</td>
-            <td>内容内容</td>
-        </tr>
-        <tr>
-            <td>1</td>
-            <td>太郎</td>
-            <td>a@com</td>
-            <td>070</td>
-            <td>内容内容</td>
+            <td>0123</td>
+            <td>そうなの</td>
         </tr>
     </tbody>
     </table>
