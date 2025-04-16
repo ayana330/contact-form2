@@ -22,7 +22,8 @@
   <main>
     <h1>お問い合わせ一覧</h1>
     <a href="/contacts/form">新規登録</a>
-    <table>
+    <table class="contact-table">
+    <thead>
         <tr>
             <th>ID</th>
             <th>名前</th>
@@ -30,6 +31,8 @@
             <th>電話</th>
             <th>内容</th>
         </tr>
+    </thead>
+    <tbody>
         <tr>
             <td>1</td>
             <td>太郎</td>
@@ -44,6 +47,7 @@
             <td>070</td>
             <td>内容内容</td>
         </tr>
+    </tbody>
     </table>
   </main>
 </body>
